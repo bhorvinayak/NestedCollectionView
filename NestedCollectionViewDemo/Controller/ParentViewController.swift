@@ -11,19 +11,19 @@ import UIKit
 class ParentViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate {
     
     //MARK: Declare variable
-    var data = generateRandomData()
+    
     //MARK: Decalare outlet
     @IBOutlet weak var outerCollectionView: UICollectionView!
-    
     @IBOutlet weak var pageControl: UIPageControl!
     let outerCount = 4
+    
     //MARK: Decalare life cycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
         pageControl.numberOfPages = outerCount
         
     }
-   
+    
     //MARK: Collection View delegate methods
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return outerCount
@@ -53,7 +53,6 @@ class OuterCollectionViewCell: UICollectionViewCell ,UICollectionViewDataSource,
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        InnerCollectionView.isHidden = false
         InnerCollectionView.delegate = self
         InnerCollectionView.dataSource = self
     }
@@ -67,7 +66,6 @@ class OuterCollectionViewCell: UICollectionViewCell ,UICollectionViewDataSource,
         cell.contentView.backgroundColor = .green
         return cell
     }
-    
     
     
 }

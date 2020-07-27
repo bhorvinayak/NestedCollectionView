@@ -15,7 +15,6 @@
 		F02CEFB724CEBBE0008A257A /* NestedCollectionViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CEFB624CEBBE0008A257A /* NestedCollectionViewDemoTests.swift */; };
 		F02CEFC224CEBBE0008A257A /* NestedCollectionViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CEFC124CEBBE0008A257A /* NestedCollectionViewDemoUITests.swift */; };
 		F02CEFD024CEBD0D008A257A /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CEFCF24CEBD0D008A257A /* ParentViewController.swift */; };
-		F02CEFD824CF05DB008A257A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02CEFD724CF05DB008A257A /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		F02CEFC124CEBBE0008A257A /* NestedCollectionViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedCollectionViewDemoUITests.swift; sourceTree = "<group>"; };
 		F02CEFC324CEBBE0008A257A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F02CEFCF24CEBD0D008A257A /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
-		F02CEFD724CF05DB008A257A /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 				F02CEFD224CEBE67008A257A /* View */,
 				F02CEFD124CEBE54008A257A /* Controller */,
 				F02CEF9F24CEBBD4008A257A /* AppDelegate.swift */,
-				F02CEFD724CF05DB008A257A /* Helpers.swift */,
 				F02CEFA124CEBBD4008A257A /* SceneDelegate.swift */,
 				F02CEFA824CEBBE0008A257A /* Assets.xcassets */,
 				F02CEFAA24CEBBE0008A257A /* LaunchScreen.storyboard */,
@@ -289,7 +286,6 @@
 				F02CEFA024CEBBD4008A257A /* AppDelegate.swift in Sources */,
 				F02CEFA224CEBBD4008A257A /* SceneDelegate.swift in Sources */,
 				F02CEFD024CEBD0D008A257A /* ParentViewController.swift in Sources */,
-				F02CEFD824CF05DB008A257A /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
